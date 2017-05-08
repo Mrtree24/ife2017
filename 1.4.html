@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task1_4</title>
+	<style>
+	body{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 20px;
+	border: 1px solid #999;
+}
+
+.subject{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	position: relative;
+	margin: 30px;
+	height: 500px;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.content_left{
+	position: absolute;
+	background-color: #fff;
+	width: 200px;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+
+.content_middle{
+	position: absolute;
+	margin: 0 190px 0 220px;
+	padding: 20px;	
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow: hidden;
+	word-wrap:break-word;
+}
+
+.content_right{
+	position: absolute;
+	right: 50px;
+	width: 120px;
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+	</style>
+</head>
+<body>
+	<div class="subject clearfix">
+		<div class="content_left clearfix">
+			<img src="img/task_1_1_1.jpg">
+			<p>团队名称</p>
+		</div>
+		<div class="content_middle clearfix">
+			<p>
+			关于我们团队的介绍
+			</p>
+			<p>
+			这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。这是我们团队的介绍。
+			</p>
+		</div>
+		<div class="content_right clearfix">
+			<img src="img/task_1_1_1.jpg">
+			<img src="img/task_1_1_1.jpg">
+			<img src="img/task_1_1_1.jpg">
+			<img src="img/task_1_1_1.jpg">
+		</div>
+	</div>
+</body>
+</html>
